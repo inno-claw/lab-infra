@@ -1,0 +1,5 @@
+[github_runner]
+gh-runner-01 ansible_host=192.168.56.11
+
+[podman_host]
+podman-app-01 ansible_host=192.168.56.12

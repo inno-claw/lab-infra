@@ -1,0 +1,12 @@
+---
+- name: Bootstrap lab VMs
+  hosts: all
+  become: true
+  tasks:
+    - name: Ensure base packages are present
+      ansible.builtin.package:
+        name:
+          - curl
+          - git
+          - qemu-guest-agent
+        state: present

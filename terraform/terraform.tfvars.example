@@ -1,0 +1,16 @@
+# Set to true when vSphere connectivity + templates are ready
+deploy_enabled = false
+lab_name       = "openclaw-lab"
+vm_cpu         = 2
+vm_memory_mb   = 2048
+vm_disk_gb     = 50
+
+# Future vars to add when Ubuntu host is online:
+# vsphere_server   = "vcenter.example.local"
+# vsphere_user     = "administrator@vsphere.local"
+# vsphere_password = "..."
+# datacenter       = "..."
+# cluster          = "..."
+# datastore        = "..."
+# network          = "..."
+# template_name    = "ubuntu-24.04-template"
