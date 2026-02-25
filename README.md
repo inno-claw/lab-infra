@@ -20,3 +20,13 @@ terraform plan
 ```
 
 > Note: By default `deploy_enabled=false`, so planning works without live vSphere access.
+
+
+## Provisioning approach
+- **Image flow:** Manual Ubuntu 24.04 image/template
+- **Post config:** Ansible playbooks after VM provisioning
+
+
+## Ralph Loop
+Use `scripts/ralph-loop.sh` to run iterative, small-step automation driven by filesystem + git state.
+See `docs/RALPH_LOOP.md` for details.
